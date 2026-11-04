@@ -39,7 +39,7 @@ Factory.define('courseHomeMetadata')
     Factory.build(
       'tab',
       {
-        title: 'Course',
+        title: 'Workshop',
         priority: 0,
         slug: 'courseware',
         type: 'courseware',
