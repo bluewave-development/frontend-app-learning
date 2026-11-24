@@ -3,13 +3,13 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headerPlaceholder: {
     id: 'learn.header.h2.placeholder',
-    defaultMessage: 'Level 2 headings may be created by course providers in the future.',
-    description: 'Message spoken by a screenreader indicating that the h2 tag is a placeholder.',
+    defaultMessage: 'Level 2 headings may be created by workshop providers in the future.',
+    description: '[BW Custom]Message spoken by a screenreader indicating that the h2 tag is a placeholder.',
   },
   loadFailure: {
     id: 'learn.course.load.failure',
-    defaultMessage: 'There was an error loading this course.',
-    description: 'Message when a course fails to load',
+    defaultMessage: 'There was an error loading this workshop.',
+    description: '[BW Custom]Message when a course fails to load',
   },
   loadingHonorCode: {
     id: 'learn.loading.honor.codk',

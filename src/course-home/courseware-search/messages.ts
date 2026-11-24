@@ -3,8 +3,8 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   searchOpenAction: {
     id: 'learn.coursewareSearch.openAction',
-    defaultMessage: 'Search within this course',
-    description: 'Aria-label for a button that will pop up Courseware Search.',
+    defaultMessage: 'Search within this workshop',
+    description: '[BW Custom]Aria-label for a button that will pop up Courseware Search.',
   },
   contentSearchButton: {
     id: 'learn.coursewareSearch.contentSearchButton',
@@ -28,8 +28,8 @@ const messages = defineMessages({
   },
   searchModuleTitle: {
     id: 'learn.coursewareSearch.searchModuleTitle',
-    defaultMessage: 'Search this course',
-    description: 'Title for the Courseware Search module.',
+    defaultMessage: 'Search this workshop',
+    description: '[BW Custom]Title for the Courseware Search module.',
   },
   searchBarPlaceholderText: {
     id: 'learn.coursewareSearch.searchBarPlaceholderText',

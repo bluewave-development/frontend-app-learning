@@ -18,8 +18,8 @@ const messages = defineMessages({
   },
   inProgressBody: {
     id: 'progress.certificateStatus.inProgressBody',
-    defaultMessage: 'It looks like there is more content in this course that will be released in the future. Look out for email updates or check back on your course for when this content will be available.',
-    description: 'Body text when learner certifcate is in progress',
+    defaultMessage: 'It looks like there is more content in this workshop that will be released in the future. Look out for email updates or check back on your workshop for when this content will be available.',
+    description: '[BW Custom]Body text when learner certifcate is in progress',
   },
   requestableHeader: {
     id: 'progress.certificateStatus.requestableHeader',
@@ -78,8 +78,8 @@ const messages = defineMessages({
   },
   upgradeBody: {
     id: 'progress.certificateStatus.upgradeBody',
-    defaultMessage: 'You are in an audit track and do not qualify for a certificate. In order to work towards a certificate, upgrade your course today.',
-    description: 'Body text when the learner needs to upgrade to earn a certifcate ',
+    defaultMessage: 'You are in an audit track and do not qualify for a certificate. In order to work towards a certificate, upgrade your workshop today.',
+    description: '[BW Custom]Body text when the learner needs to upgrade to earn a certifcate ',
   },
   upgradeButton: {
     id: 'progress.certificateStatus.upgradeButton',
@@ -98,8 +98,8 @@ const messages = defineMessages({
   },
   unverifiedHomeBody: {
     id: 'progress.certificateStatus.unverifiedHomeBody',
-    defaultMessage: 'In order to generate a certificate for this course, you must complete the ID verification process.',
-    description: 'Body text when the learner needs to do verification to earn a certifcate',
+    defaultMessage: 'In order to generate a certificate for this workshop, you must complete the ID verification process.',
+    description: '[BW Custom]Body text when the learner needs to do verification to earn a certifcate',
   },
 });
 

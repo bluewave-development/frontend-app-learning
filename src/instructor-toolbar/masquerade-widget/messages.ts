@@ -18,8 +18,8 @@ const messages = defineMessages({
   },
   titleViewAs: {
     id: 'instructor.toolbar.view.as',
-    defaultMessage: 'View this course as:',
-    description: 'Button to view this course as',
+    defaultMessage: 'View this workshop as:',
+    description: '[BW Custom]Button to view this course as',
   },
   titleStaff: {
     id: 'instructor.toolbar.staff',

@@ -3,8 +3,8 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   completed: {
     id: 'learning.celebration.completed',
-    defaultMessage: 'You just completed the first section of your course.',
-    description: 'Shown only once to leaner when they complete their first section',
+    defaultMessage: 'You just completed the first section of your workshop.',
+    description: '[BW Custom]Shown only once to leaner when they complete their first section',
   },
   congrats: {
     id: 'learning.celebration.congrats',

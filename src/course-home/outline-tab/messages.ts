@@ -3,8 +3,8 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   allDates: {
     id: 'learning.outline.dates.all',
-    defaultMessage: 'View all course dates',
-    description: 'Text anchor for link that redirects to dates or course timeline tab',
+    defaultMessage: 'View all workshop dates',
+    description: '[BW Custom]Text anchor for link that redirects to dates or course timeline tab',
   },
   casualGoalButtonText: {
     id: 'learning.outline.goalButton.casual.text',
@@ -38,8 +38,8 @@ const messages = defineMessages({
   },
   hiddenSection: {
     id: 'learning.outline.hiddenSection',
-    defaultMessage: 'Hidden in Course Outline, accessible via link',
-    description: 'Label for hidden section in course outline',
+    defaultMessage: 'Hidden in Workshop Outline, accessible via link',
+    description: '[BW Custom]Label for hidden section in course outline',
   },
   hiddenSequenceLink: {
     id: 'learning.outline.hiddenSequenceLink',
@@ -77,8 +77,8 @@ const messages = defineMessages({
   },
   handouts: {
     id: 'learning.outline.handouts',
-    defaultMessage: 'Course Handouts',
-    description: 'Header for (Course Handouts) section in course outline',
+    defaultMessage: 'Workshop Handouts',
+    description: '[BW Custom]Header for (Course Handouts) section in course outline',
   },
   incompleteAssignment: {
     id: 'learning.outline.incompleteAssignment',
@@ -111,8 +111,8 @@ const messages = defineMessages({
   },
   proctoringInfoPanel: {
     id: 'learning.proctoringPanel.header',
-    defaultMessage: 'This course contains proctored exams',
-    description: 'Used as a label to indicate that course has proctored exams',
+    defaultMessage: 'This workshop contains proctored exams',
+    description: '[BW Custom]Used as a label to indicate that course has proctored exams',
   },
   regularGoalButtonText: {
     id: 'learning.outline.goalButton.regular.text',
@@ -132,13 +132,13 @@ const messages = defineMessages({
   },
   resume: {
     id: 'learning.outline.resume',
-    defaultMessage: 'Resume course',
-    description: 'Anchor text for button that would resume course',
+    defaultMessage: 'Resume workshop',
+    description: '[BW Custom]Anchor text for button that would resume course',
   },
   setGoal: {
     id: 'learning.outline.setGoal',
-    defaultMessage: 'To start, set a course goal by selecting the option below that best describes your learning plan.',
-    description: 'In indicate to learner how to set or use the goal reminder service',
+    defaultMessage: 'To start, set a workshop goal by selecting the option below that best describes your learning plan.',
+    description: '[BW Custom]In indicate to learner how to set or use the goal reminder service',
   },
   setGoalReminder: {
     id: 'learning.outline.setGoalReminder',
@@ -157,22 +157,23 @@ const messages = defineMessages({
   },
   setWeeklyGoalDetail: {
     id: 'learning.outline.setWeeklyGoalDetail',
-    defaultMessage: 'Setting a goal motivates you to finish the course. You can always change it later.',
-    description: 'It indiacate the gaol or the purpose of the goal reminder service to learners',
+    defaultMessage: 'Setting a goal motivates you to finish the workshop. You can always change it later.',
+    description: '[BW Custom]It indiacate the gaol or the purpose of the goal reminder service to learners',
   },
   start: {
     id: 'learning.outline.start',
-    defaultMessage: 'Start course',
-    description: 'The text for button which starts the course',
+    defaultMessage: 'Start workshop',
+    description: '[BW Custom]The text for button which starts the course',
   },
   startBlurb: {
     id: 'learning.outline.startBlurb',
-    defaultMessage: 'Begin your course today',
+    defaultMessage: 'Begin your workshop today',
+    description: '[BW Custom]',
   },
   tools: {
     id: 'learning.outline.tools',
-    defaultMessage: 'Course Tools',
-    description: 'Headline for the (course tools) section in course outline. course tool might include links to course bookmarks, financial assistance...etc',
+    defaultMessage: 'Workshop Tools',
+    description: '[BW Custom]Headline for the (course tools) section in course outline. course tool might include links to course bookmarks, financial assistance...etc',
   },
   upgradeButton: {
     id: 'learning.outline.upgradeButton',
@@ -233,8 +234,8 @@ const messages = defineMessages({
   },
   otherCourseApprovedProctoringStatus: {
     id: 'learning.proctoringPanel.status.otherCourseApproved',
-    defaultMessage: 'Approved in Another Course',
-    description: 'Label to indicate that the proctortrack onboarding exam is verified based on taking onboarding exam on another course',
+    defaultMessage: 'Approved in Another Workshop',
+    description: '[BW Custom]Label to indicate that the proctortrack onboarding exam is verified based on taking onboarding exam on another course',
   },
   expiringSoonProctoringStatus: {
     id: 'learning.proctoringPanel.status.expiringSoon',
@@ -268,8 +269,8 @@ const messages = defineMessages({
   },
   verifiedProctoringMessage: {
     id: 'learning.proctoringPanel.message.verified',
-    defaultMessage: 'Your onboarding exam has been approved in this course.',
-    description: 'The text that explain the meaning of (verified) label of the proctortrack onboarding exam',
+    defaultMessage: 'Your onboarding exam has been approved in this workshop.',
+    description: '[BW Custom]The text that explain the meaning of (verified) label of the proctortrack onboarding exam',
   },
   rejectedProctoringMessage: {
     id: 'learning.proctoringPanel.message.rejected',
@@ -283,13 +284,13 @@ const messages = defineMessages({
   },
   otherCourseApprovedProctoringMessage: {
     id: 'learning.proctoringPanel.message.otherCourseApproved',
-    defaultMessage: 'Your onboarding exam has been approved in another course.',
-    description: 'The text that explain the meaning of (approved in another course) label of the proctortrack onboarding exam',
+    defaultMessage: 'Your onboarding exam has been approved in another workshop.',
+    description: '[BW Custom]The text that explain the meaning of (approved in another course) label of the proctortrack onboarding exam',
   },
   otherCourseApprovedProctoringDetail: {
     id: 'learning.proctoringPanel.detail.otherCourseApproved',
-    defaultMessage: 'If your device has changed, we recommend that you complete this course\'s onboarding exam in order to ensure that your setup still meets the requirements for proctoring.',
-    description: 'The text that recommend an action when the status of the proctortrack onboarding exam is (approved in another course)',
+    defaultMessage: 'If your device has changed, we recommend that you complete this workshop\'s onboarding exam in order to ensure that your setup still meets the requirements for proctoring.',
+    description: '[BW Custom]The text that recommend an action when the status of the proctortrack onboarding exam is (approved in another course)',
   },
   expiringSoonProctoringMessage: {
     id: 'learning.proctoringPanel.message.expiringSoon',

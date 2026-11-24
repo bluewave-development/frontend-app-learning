@@ -8,13 +8,13 @@ const messages = defineMessages({
   },
   toggleCourseOutlineTrigger: {
     id: 'courseOutline.toggle.button',
-    defaultMessage: 'Toggle course outline tray',
-    description: 'Button for the learner to toggle the sidebar',
+    defaultMessage: 'Toggle workshop outline tray',
+    description: '[BW Custom]Button for the learner to toggle the sidebar',
   },
   courseOutlineTitle: {
     id: 'courseOutline.tray.title',
-    defaultMessage: 'Course outline',
-    description: 'Title text displayed for the course outline tray',
+    defaultMessage: 'Workshop outline',
+    description: '[BW Custom]Title text displayed for the course outline tray',
   },
   completedUnit: {
     id: 'courseOutline.completedUnit',

@@ -22,7 +22,8 @@ const messages = defineMessages({
   },
   streakButtonAA759: {
     id: 'learning.streakCelebration.buttonAA759',
-    defaultMessage: 'Continue with course',
+    defaultMessage: 'Continue with workshop',
+    description: '[BW Custom]',
   },
   streakHeader: {
     id: 'learning.streakCelebration.header',
@@ -31,18 +32,18 @@ const messages = defineMessages({
   },
   streakFactoidABoldedSection: {
     id: 'learning.streakCelebration.factoidABoldedSection',
-    defaultMessage: 'are 20x more likely to pass their course',
-    description: 'This bolded section is in the following sentence: Users who learn 3 days in a row {bolded_section} than those who don\'t.',
+    defaultMessage: 'are 20x more likely to pass their workshop',
+    description: '[BW Custom]This bolded section is in the following sentence: Users who learn 3 days in a row {bolded_section} than those who don\'t.',
   },
   streakFactoidBBoldedSection: {
     id: 'learning.streakCelebration.factoidBBoldedSection',
-    defaultMessage: 'complete 5x as much course content on average',
-    description: 'This bolded section is in the following sentence: Users who learn 3 days in a row {bolded_section} vs. those who don\'t.',
+    defaultMessage: 'complete 5x as much workshop content on average',
+    description: '[BW Custom]This bolded section is in the following sentence: Users who learn 3 days in a row {bolded_section} vs. those who don\'t.',
   },
   streakDiscountMessage: {
     id: 'learning.streakCelebration.streakDiscountMessage',
-    defaultMessage: 'You’ve unlocked a {percent}% off discount when you upgrade this course for a limited time only.',
-    description: 'This message describes a discount the user becomes eligible for when they hit their three day streak',
+    defaultMessage: 'You’ve unlocked a {percent}% off discount when you upgrade this workshop for a limited time only.',
+    description: '[BW Custom]This message describes a discount the user becomes eligible for when they hit their three day streak',
   },
 });
 

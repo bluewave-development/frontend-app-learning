@@ -8,8 +8,8 @@ const messages = defineMessages({
   },
   progressHeaderForTargetUser: {
     id: 'progress.header.targetUser',
-    defaultMessage: 'Course progress for {username}',
-    description: 'Header when displaying the progress for a different user',
+    defaultMessage: 'Workshop progress for {username}',
+    description: '[BW Custom]Header when displaying the progress for a different user',
   },
   studioLink: {
     id: 'progress.link.studio',

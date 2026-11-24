@@ -8,8 +8,8 @@ const messages = defineMessages({
   },
   courseCredit: {
     id: 'progress.creditInformation.courseCredit',
-    defaultMessage: 'course credit',
-    description: 'Anchor text for link that redirects (course credit) help page',
+    defaultMessage: 'workshop credit',
+    description: '[BW Custom]Anchor text for link that redirects (course credit) help page',
   },
   minimumGrade: {
     id: 'progress.creditInformation.minimumGrade',
@@ -17,8 +17,8 @@ const messages = defineMessages({
   },
   requirementsHeader: {
     id: 'progress.creditInformation.requirementsHeader',
-    defaultMessage: 'Requirements for course credit',
-    description: 'Header for the requirements section in course credit',
+    defaultMessage: 'Requirements for workshop credit',
+    description: '[BW Custom]Header for the requirements section in course credit',
   },
   upcoming: {
     id: 'progress.creditInformation.upcoming',
@@ -37,14 +37,14 @@ const messages = defineMessages({
   },
   creditNotEligibleStatus: {
     id: 'progress.creditInformation.creditNotEligible',
-    defaultMessage: 'You are no longer eligible for credit in this course. Learn more about {creditLink}.',
-    description: 'Message to learner who are not eligible for course credit, it can be that a requirement deadline has passed',
+    defaultMessage: 'You are no longer eligible for credit in this workshop. Learn more about {creditLink}.',
+    description: '[BW Custom]Message to learner who are not eligible for course credit, it can be that a requirement deadline has passed',
   },
   creditEligibleStatus: {
     id: 'progress.creditInformation.creditEligible',
-    defaultMessage: `You have met the requirements for credit in this course. Go to your
-      {dashboardLink} to purchase course credit. Or learn more about {creditLink}.`,
-    description: 'After the credit requirements are met, leaners can then do the last step which purchasing the credit. Note that is only doable for leaners after they met all the requirements',
+    defaultMessage: `You have met the requirements for credit in this workshop. Go to your
+      {dashboardLink} to purchase workshop credit. Or learn more about {creditLink}.`,
+    description: '[BW Custom]After the credit requirements are met, leaners can then do the last step which purchasing the credit. Note that is only doable for leaners after they met all the requirements',
   },
   creditPartialEligibleStatus: {
     id: 'progress.creditInformation.creditPartialEligible',

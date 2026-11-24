@@ -48,8 +48,8 @@ const messages = defineMessages({
   },
   completedCourseHeader: {
     id: 'courseCelebration.completedCourseHeader',
-    defaultMessage: 'You have completed your course.',
-    description: 'Header text for course exit section',
+    defaultMessage: 'You have completed your workshop.',
+    description: '[BW Custom]Header text for course exit section',
   },
   congratulationsHeader: {
     id: 'courseCelebration.congratulationsHeader',
@@ -63,8 +63,8 @@ const messages = defineMessages({
   },
   courseInProgressDescription: {
     id: 'courseExit.courseInProgressDescription',
-    defaultMessage: 'It looks like there is more content in this course that will be released in the future. Look out for email updates or check back on your course for when this content will be available.',
-    description: 'Shown to learner when they finish all available assignments, but not the whole course',
+    defaultMessage: 'It looks like there is more content in this workshop that will be released in the future. Look out for email updates or check back on your workshop for when this content will be available.',
+    description: '[BW Custom]Shown to learner when they finish all available assignments, but not the whole course',
   },
   courseInProgressHeader: {
     id: 'courseExit.courseInProgressHeader',
@@ -78,8 +78,8 @@ const messages = defineMessages({
   },
   dashboardInfo: {
     id: 'courseCelebration.dashboardInfo', // for historical reasons
-    defaultMessage: 'You can access this course and its materials on your {dashboardLink}.',
-    description: "Text that precedes link to learner's dashboard",
+    defaultMessage: 'You can access this workshop and its materials on your {dashboardLink}.',
+    description: "[BW Custom]Text that precedes link to learner's dashboard",
   },
   endOfCourseDescription: {
     id: 'courseExit.endOfCourseDescription',
@@ -88,11 +88,13 @@ const messages = defineMessages({
   },
   endOfCourseHeader: {
     id: 'courseExit.endOfCourseHeader',
-    defaultMessage: 'You’ve reached the end of the course!',
+    defaultMessage: 'You’ve reached the end of the workshop!',
+    description: '[BW Custom]',
   },
   endOfCourseTitle: {
     id: 'courseExit.endOfCourseTitle',
-    defaultMessage: 'End of Course',
+    defaultMessage: 'End of Workshop',
+    description: '[BW Custom]',
   },
   idVerificationSupportLink: {
     id: 'courseExit.idVerificationSupportLink',
@@ -118,13 +120,13 @@ const messages = defineMessages({
   },
   nextButtonComplete: {
     id: 'learn.sequence.navigation.complete.button', // for historical reasons
-    defaultMessage: 'Complete the course',
-    description: 'This text is shown on the button which usually links to the next unit or assignment in course sequence, however when it is the last unit. The button will link to course exit page',
+    defaultMessage: 'Complete the workshop',
+    description: '[BW Custom]This text is shown on the button which usually links to the next unit or assignment in course sequence, however when it is the last unit. The button will link to course exit page',
   },
   nextButtonEnd: {
     id: 'courseExit.nextButton.endOfCourse',
-    defaultMessage: 'Next (end of course)',
-    description: 'This shown for the button which links to the next unit, when learner did not pass the course',
+    defaultMessage: 'Next (end of workshop)',
+    description: '[BW Custom]This shown for the button which links to the next unit, when learner did not pass the course',
   },
   profileLink: {
     id: 'courseExit.profileLink',
@@ -133,8 +135,8 @@ const messages = defineMessages({
   },
   programsLastCourseHeader: {
     id: 'courseExit.programs.lastCourse',
-    defaultMessage: 'You have completed the last course in {title}!',
-    description: 'This shown to learner when the course they completed is the last one of a program, the program might be mircomaster, or microbachelors...etc',
+    defaultMessage: 'You have completed the last workshop in {title}!',
+    description: '[BW Custom]This shown to learner when the course they completed is the last one of a program, the program might be mircomaster, or microbachelors...etc',
   },
   requestCertificateBodyText: {
     id: 'courseCelebration.requestCertificateBodyText',
@@ -191,13 +193,13 @@ const messages = defineMessages({
   },
   viewCourseScheduleButton: {
     id: 'courseExit.viewCourseScheduleButton',
-    defaultMessage: 'View course schedule',
-    description: 'Button to view the course schedule',
+    defaultMessage: 'View workshop schedule',
+    description: '[BW Custom]Button to view the course schedule',
   },
   viewCoursesButton: {
     id: 'courseExit.viewCoursesButton',
-    defaultMessage: 'View my courses',
-    description: 'Button to redirect user to their course dashboard',
+    defaultMessage: 'View my workshops',
+    description: '[BW Custom]Button to redirect user to their course dashboard',
   },
   viewGradesButton: {
     id: 'courseExit.viewGradesButton',

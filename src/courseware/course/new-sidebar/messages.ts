@@ -28,8 +28,8 @@ const messages = defineMessages({
   },
   responsiveCloseSidebarTray: {
     id: 'responsive.close.sidebar',
-    defaultMessage: 'Back to course',
-    description: 'Responsive button to go back to course and close the sidebar tray',
+    defaultMessage: 'Back to workshop',
+    description: '[BW Custom]Responsive button to go back to course and close the sidebar tray',
   },
 });
 

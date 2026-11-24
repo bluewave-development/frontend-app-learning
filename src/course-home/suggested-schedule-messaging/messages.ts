@@ -14,9 +14,9 @@ const messages = defineMessages({
   },
   upgradeToCompleteBody: {
     id: 'datesBanner.upgradeToCompleteGradedBanner.body',
-    defaultMessage: 'You are auditing this course, which means that you are unable to participate in graded'
+    defaultMessage: 'You are auditing this workshop, which means that you are unable to participate in graded'
       + ' assignments. To complete graded assignments as part of this course, you can upgrade today.',
-    description: 'It explain the effect of upgrading the course',
+    description: '[BW Custom]It explain the effect of upgrading the course',
   },
   upgradeToCompleteButton: {
     id: 'datesBanner.upgradeToCompleteGradedBanner.button',

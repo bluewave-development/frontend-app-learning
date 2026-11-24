@@ -18,8 +18,8 @@ const messages = defineMessages({
   },
   responsiveCloseNotificationTray: {
     id: 'responsive.close.notification',
-    defaultMessage: 'Back to course',
-    description: 'Responsive button to go back to course and close the notification tray',
+    defaultMessage: 'Back to workshop',
+    description: '[BW Custom]Responsive button to go back to course and close the notification tray',
   },
   notificationTitle: {
     id: 'notification.tray.title',

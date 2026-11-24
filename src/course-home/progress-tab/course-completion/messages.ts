@@ -8,8 +8,8 @@ const messages = defineMessages({
   },
   completionBody: {
     id: 'progress.completion.body',
-    defaultMessage: 'This represents how much of the course content you have completed. Note that some content may not yet be released.',
-    description: 'It explains the meaning of progress donut chart',
+    defaultMessage: 'This represents how much of the workshop content you have completed. Note that some content may not yet be released.',
+    description: '[BW Custom]It explains the meaning of progress donut chart',
   },
   completeContentTooltip: {
     id: 'progress.completion.tooltip.locked',
@@ -18,8 +18,8 @@ const messages = defineMessages({
   },
   courseCompletion: {
     id: 'progress.completion.header',
-    defaultMessage: 'Course completion',
-    description: 'Header text for (completion donut chart) section of the progress tab',
+    defaultMessage: 'Workshop completion',
+    description: '[BW Custom]Header text for (completion donut chart) section of the progress tab',
   },
   incompleteContentTooltip: {
     id: 'progress.completion.tooltip',
@@ -33,18 +33,18 @@ const messages = defineMessages({
   },
   percentComplete: {
     id: 'progress.completion.donut.percentComplete',
-    defaultMessage: 'You have completed {percent}% of content in this course.',
-    description: 'It summarize the progress in the course (100% - %incomplete)',
+    defaultMessage: 'You have completed {percent}% of content in this workshop.',
+    description: '[BW Custom]It summarize the progress in the course (100% - %incomplete)',
   },
   percentIncomplete: {
     id: 'progress.completion.donut.percentIncomplete',
-    defaultMessage: 'You have not completed {percent}% of content in this course that you have access to.',
-    description: 'It summarize the progress in the course (100% - %complete)',
+    defaultMessage: 'You have not completed {percent}% of content in this workshop that you have access to.',
+    description: '[BW Custom]It summarize the progress in the course (100% - %complete)',
   },
   percentLocked: {
     id: 'progress.completion.donut.percentLocked',
-    defaultMessage: '{percent}% of content in this course is locked and available only for those who upgrade.',
-    description: 'It indicate the relative size of content that is locked in the course (100% - %open_content)',
+    defaultMessage: '{percent}% of content in this workshop is locked and available only for those who upgrade.',
+    description: '[BW Custom]It indicate the relative size of content that is locked in the course (100% - %open_content)',
   },
 });
 

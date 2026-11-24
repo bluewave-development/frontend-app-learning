@@ -13,13 +13,13 @@ const messages = defineMessages({
   },
   courseGradeBody: {
     id: 'progress.courseGrade.body',
-    defaultMessage: 'This represents your weighted grade against the grade needed to pass this course.',
-    description: 'This text is shown to explain the meaning of the (grade bar) chart',
+    defaultMessage: 'This represents your weighted grade against the grade needed to pass this workshop.',
+    description: '[BW Custom]This text is shown to explain the meaning of the (grade bar) chart',
   },
   courseGradeBarAltText: {
     id: 'progress.courseGrade.gradeBar.altText',
-    defaultMessage: 'Your current grade is {currentGrade}%. A weighted grade of {passingGrade}% is required to pass in this course.',
-    description: 'Alt text for the grade chart bar',
+    defaultMessage: 'Your current grade is {currentGrade}%. A weighted grade of {passingGrade}% is required to pass in this workshop.',
+    description: '[BW Custom]Alt text for the grade chart bar',
   },
   courseGradeFooterDueDateNotice: {
     id: 'progress.courseGrade.footer.dueDateNotice',
@@ -28,18 +28,18 @@ const messages = defineMessages({
   },
   courseGradeFooterGenericPassing: {
     id: 'progress.courseGrade.footer.generic.passing',
-    defaultMessage: 'You’re currently passing this course',
-    description: 'This shown when learner weighted grade is greater or equal course passing grade',
+    defaultMessage: 'You’re currently passing this workshop',
+    description: '[BW Custom]This shown when learner weighted grade is greater or equal course passing grade',
   },
   courseGradeFooterNonPassing: {
     id: 'progress.courseGrade.footer.nonPassing',
-    defaultMessage: 'A weighted grade of {passingGrade}% is required to pass in this course',
-    description: 'This shown when learner weighted grade is less than course passing grade',
+    defaultMessage: 'A weighted grade of {passingGrade}% is required to pass in this workshop',
+    description: '[BW Custom]This shown when learner weighted grade is less than course passing grade',
   },
   courseGradeFooterPassingWithGrade: {
     id: 'progress.courseGrade.footer.passing',
-    defaultMessage: 'You’re currently passing this course with a grade of {letterGrade} ({minGrade}-{maxGrade}%)',
-    description: 'This shown when learner weighted grade is greater or equal course passing grade amd course is using letter grade',
+    defaultMessage: 'You’re currently passing this workshop with a grade of {letterGrade} ({minGrade}-{maxGrade}%)',
+    description: '[BW Custom]This shown when learner weighted grade is greater or equal course passing grade amd course is using letter grade',
   },
   courseGradePreviewHeaderLocked: {
     id: 'progress.courseGrade.preview.headerLocked',
@@ -68,8 +68,8 @@ const messages = defineMessages({
   },
   courseGradePreviewUpgradeDeadlinePassedBody: {
     id: 'progress.courseGrade.preview.body.upgradeDeadlinePassed',
-    defaultMessage: 'The deadline to upgrade in this course has passed.',
-    description: 'Shown when learner no longer can upgrade',
+    defaultMessage: 'The deadline to upgrade in this workshop has passed.',
+    description: '[BW Custom]Shown when learner no longer can upgrade',
   },
   courseGradePreviewUpgradeButton: {
     id: 'progress.courseGrade.preview.button.upgrade',
@@ -78,13 +78,13 @@ const messages = defineMessages({
   },
   courseGradeRangeTooltip: {
     id: 'progress.courseGrade.gradeRange.tooltip',
-    defaultMessage: 'Grade ranges for this course:',
-    description: 'This shown when course is using (letter grade) to explain e.g. range for A, B, and C...etc',
+    defaultMessage: 'Grade ranges for this workshop:',
+    description: '[BW Custom]This shown when course is using (letter grade) to explain e.g. range for A, B, and C...etc',
   },
   courseOutline: {
     id: 'progress.courseOutline',
-    defaultMessage: 'Course outline',
-    description: 'Anchor text for link that redirects to (course outline) tab',
+    defaultMessage: 'Workshop outline',
+    description: '[BW Custom]Anchor text for link that redirects to (course outline) tab',
   },
   currentGradeLabel: {
     id: 'progress.courseGrade.label.currentGrade',
@@ -138,8 +138,8 @@ const messages = defineMessages({
   },
   gradeSummaryLimitedAccessExplanation: {
     id: 'progress.gradeSummary.limitedAccessExplanation',
-    defaultMessage: 'You have limited access to graded assignments as part of the audit track in this course. {upgradeLink}',
-    description: 'Text shown when learner has limited access to grade feature',
+    defaultMessage: 'You have limited access to graded assignments as part of the audit track in this workshop. {upgradeLink}',
+    description: '[BW Custom]Text shown when learner has limited access to grade feature',
   },
   gradeSummaryTooltipAlt: {
     id: 'progress.gradeSummary.tooltip.alt',
@@ -148,10 +148,10 @@ const messages = defineMessages({
   },
   gradeSummaryTooltipBody: {
     id: 'progress.gradeSummary.tooltip.body',
-    defaultMessage: "Your course assignment's weight is determined by your instructor. "
+    defaultMessage: "Your workshop assignment's weight is determined by your instructor. "
       + 'By multiplying your grade by the weight for that assignment type, your weighted grade is calculated. '
       + "Your weighted grade is what's used to determine if you pass the course.",
-    description: 'The content of (tip box) for the grade summary section',
+    description: '[BW Custom]The content of (tip box) for the grade summary section',
   },
   hiddenScoreLabel: {
     id: 'progress.hiddenScoreLabel',
@@ -165,8 +165,8 @@ const messages = defineMessages({
   },
   hiddenScoreLockInfoText: {
     id: 'progress.hiddenScoreLockInfoText',
-    defaultMessage: 'Scores for an assignment type are hidden but still counted toward the course grade.',
-    description: 'Information text about hidden score label when learners have limited access to grades feature',
+    defaultMessage: 'Scores for an assignment type are hidden but still counted toward the workshop grade.',
+    description: '[BW Custom]Information text about hidden score label when learners have limited access to grades feature',
   },
   noAccessToAssignmentType: {
     id: 'progress.noAcessToAssignmentType',
@@ -240,8 +240,8 @@ const messages = defineMessages({
   },
   ungradedAlert: {
     id: 'progress.ungradedAlert',
-    defaultMessage: 'For progress on ungraded aspects of the course, view your {outlineLink}.',
-    description: 'Text that precede link that redirect to course outline page',
+    defaultMessage: 'For progress on ungraded aspects of the workshop, view your {outlineLink}.',
+    description: '[BW Custom]Text that precede link that redirect to course outline page',
   },
   droppableAssignmentsText: {
     id: 'progress.footnotes.droppableAssignments',
